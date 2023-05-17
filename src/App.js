@@ -1,5 +1,74 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import "./App.css";
+// import Card from "./components/Card";
+
+import Button from "./components/Button";
+
+//import Title from "./components/Title";
+//import ColorComponent from "./components/ColorComponent";
+// import Card from "./components/Image";
+
+// Problem 1 by Rishi Bhaiyaaaaa
+
+/* function App() {
+  return (
+    <div>
+      <Title></Title>
+    </div>
+  );
+}
+*/
+
+// 2nd problem
+
+/* const App = () => {
+  return (
+    <div>
+      <h1>This is the parent component</h1>
+      <ColorComponent color="blue">
+        <p>This is the child component with a blue background.</p>
+      </ColorComponent>
+    </div>
+  );
+}; */
+
+// 3rd problem
+
+/* const App = () => {
+  return (
+    <div className="grid">
+      <Card
+        image="./random-img.png"
+        title="Card 1"
+        description="Description for Card 1"
+      />
+      <Card
+        image="./random-img.png"
+        title="Card 2"
+        description="Description for Card 2"
+      />
+      <Card
+        image="./random-img.png"
+        title="Card 3"
+        description="Description for Card 3"
+      />
+    </div>
+  );
+}; */
+
+// 4th problem
+
+const App = () => {
+  return (
+    <div>
+      <Button size="small" color="primary" />
+      <Button size="medium" color="secondary" />
+      <Button size="large" color="primary" />
+    </div>
+  );
+};
+
+// 2nd Problem
 
 /* const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -72,7 +141,7 @@ import "./App.css";
 
 // API call using useState and useEffect
 
-const App = () => {
+/* const App = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -92,6 +161,18 @@ const App = () => {
       </ul>
     </div>
   );
-};
+}; */
+/* const App = () => {
+  const [modal, setModal] = useState(false);
+  const handlerFunction = () => {};
+
+  return (
+    <div className="container">
+      <div>modal implementation</div>
+      <button>open modal</button>
+      <div className="modal">this is a modal</div>
+    </div>
+  );
+}; */
 
 export default App;

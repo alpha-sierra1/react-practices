@@ -29,3 +29,24 @@
   cursor: pointer;
   font-weight: 600;
 } */
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+.modal {
+  border: 2px solid black;
+  color: blue;
+  background-color: red;
+  width: 600px;
+  height: 400px;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 20%;
+}
