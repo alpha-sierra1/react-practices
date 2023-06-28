@@ -1,8 +1,10 @@
 // import React, { useState, useEffect } from "react";
 import "./App.css";
+import React, { useState } from "react";
+import LoginForm from "./components/UseState";
 // import Card from "./components/Card";
 
-import Button from "./components/Button";
+// import Button from "./components/Button";
 
 //import Title from "./components/Title";
 //import ColorComponent from "./components/ColorComponent";
@@ -58,12 +60,21 @@ import Button from "./components/Button";
 
 // 4th problem
 
-const App = () => {
+/* const App = () => {
   return (
     <div>
       <Button size="small" color="primary" />
       <Button size="medium" color="secondary" />
       <Button size="large" color="primary" />
+    </div>
+  );
+}; */
+
+const App = () => {
+  return (
+    <div>
+      <h1>Login Form Example</h1>
+      <LoginForm />
     </div>
   );
 };
